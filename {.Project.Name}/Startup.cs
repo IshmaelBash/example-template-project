@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace butler{ .Project.Name }
+namespace bb{ .Project.Name }
 {
     public class Startup
     {
