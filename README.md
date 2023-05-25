@@ -1,6 +1,6 @@
 # Project bb{ .Project.Name }
 
-This is a compatible butler template. Based on Visual Studio 2017 .NET Core 2.0 React Template.<br>
+This is a compatible BashBuilder template.<br>
 **This template is for template experiments only.**
 
 # Description
