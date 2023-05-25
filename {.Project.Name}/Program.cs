@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace butler{ .Project.Name }
+namespace bb{ .Project.Name }
 {
     public class Program
     {
