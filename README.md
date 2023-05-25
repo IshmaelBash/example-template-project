@@ -1,40 +1,40 @@
-# Projekt butler{ .Project.Name }
+# Project bb{ .Project.Name }
 
 This is a compatible butler template. Based on Visual Studio 2017 .NET Core 2.0 React Template.<br>
 **This template is for template experiments only.**
 
 # Description
 
-butler{ .Project.Description }
+bb{ .Project.Description }
 
 # Survey results
 
-1. butler{getDrink}
-2. butler{getColor}
-3. butler{join getLang ", "}
-4. butler{getDb}
-5. butler{getDbPassword}
-6. butler{getPrintNode}
+1. bb{getDrink}
+2. bb{getColor}
+3. bb{join getLang ", "}
+4. bb{getDb}
+5. bb{getDbPassword}
+6. bb{getPrintNode}
 
 ## Custom variables
 
-- butler{ .Vars.test }
-- butler{ .Vars.db }
-- butler{ .Vars.projectName }
+- bb{ .Vars.test }
+- bb{ .Vars.db }
+- bb{ .Vars.projectName }
 
 ## Environment variables
 
-- butler{ env "BUTLER_CONFIG_URL" }
+- bb{ env "BUTLER_CONFIG_URL" }
 
 ## Current cwd
 
-- butler{ cwd }
+- bb{ cwd }
 
 ## Regex
 
-- butler{ (regex "[0-9]+").FindString "I'm 26 years old" }
+- bb{ (regex "[0-9]+").FindString "I'm 26 years old" }
 
 ## Generators
 
-- butler{ randomInt 5 10 }
-- butler{ uuid }
+- bb{ randomInt 5 10 }
+- bb{ uuid }
