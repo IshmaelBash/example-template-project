@@ -1,5 +1,5 @@
 deprecated: false
-butlerVersion: ">=0.8.0"
+bashVersions: ">=1.0.0"
 
 questions:
   - type: input
