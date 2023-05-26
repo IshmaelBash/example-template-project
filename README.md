@@ -14,7 +14,7 @@ bb{ .Project.Description }
 3. bb{ join getLang ", " }
 4. bb{ getDb }
 5. bb{ getDbPassword }
-6. bb{ getPrintNode }
+
 
 ## Custom variables
 
