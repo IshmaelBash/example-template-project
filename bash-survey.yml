@@ -25,24 +25,13 @@ questions:
     name: dbPassword
     message: "Please enter a db password"
     required: true
-  - type: confirm
-    name: printNode
-    message: "Should we print the Node Version?"
     
 afterHooks:
-  - name: print npm version
-    cmd: node
-    args: ["-v"]
+  - name: do something
+    cmd: echo
+    args: ["Hello from BASH"]
     enabled: getPrintNode
     verbose: true
-  - name: print npm version
-    cmd: npm
-    args: ["-v"]
-    enabled: eq getDb "mongodb"
-    verbose: true
-  - name: sleep 3 seconds
-    cmd: powershell
-    args: ["-command", "Start-Sleep -s 3"]
  
 variables:
   test: fooBar
