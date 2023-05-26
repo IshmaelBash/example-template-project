@@ -30,7 +30,7 @@ afterHooks:
   - name: do something
     cmd: echo
     args: ["Hello from BASH"]
-    enabled: getPrintNode
+    enabled: true
     verbose: true
  
 variables:
