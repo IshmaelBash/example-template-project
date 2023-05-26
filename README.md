@@ -24,7 +24,7 @@ bb{ .Project.Description }
 
 ## Environment variables
 
-- bb{ env "BASH_CONFIG_URL" }
+- bb{ env "PATH" }
 
 ## Current cwd
 
