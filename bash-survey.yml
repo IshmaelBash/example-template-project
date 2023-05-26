@@ -14,12 +14,12 @@ questions:
   - type: multiselect
     name: lang
     message: "Choose your programming language:"
-    options: ["c#", "go", "javascript"]
-    default: ["c#"]
+    options: ["go", "javascript", "dart", "python"]
+    default: ["go"]
   - type: select
     name: db
     message: "Choose your database:"
-    options: ["mongodb", "mssql", "redis"]
+    options: ["postgres", "mongodb", "mssql", "redis"]
     required: true
   - type: password
     name: dbPassword
