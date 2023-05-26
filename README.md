@@ -9,12 +9,12 @@ bb{ .Project.Description }
 
 # Survey results
 
-1. bb{getDrink}
-2. bb{getColor}
-3. bb{join getLang ", "}
-4. bb{getDb}
-5. bb{getDbPassword}
-6. bb{getPrintNode}
+1. bb{ getDrink }
+2. bb{ getColor }
+3. bb{ join getLang ", " }
+4. bb{ getDb }
+5. bb{ getDbPassword }
+6. bb{ getPrintNode }
 
 ## Custom variables
 
@@ -24,7 +24,7 @@ bb{ .Project.Description }
 
 ## Environment variables
 
-- bb{ env "BUTLER_CONFIG_URL" }
+- bb{ env "BASH_CONFIG_URL" }
 
 ## Current cwd
 
